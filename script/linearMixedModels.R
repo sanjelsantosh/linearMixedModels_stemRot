@@ -17,7 +17,6 @@ library(ggResidpanel)
 library(dplyr)
 
 
-# Fit a linear mixed effect model: Start with the most elaborate one
 # Fit linear mixed effect model: start with the most elaborate one
 # fixed effects -> Variety (main-plot) and trt-inoculum (sub-plot)
 # random effect -> complicated due to the nesting (year, location, replication, mainplot and subplot)
